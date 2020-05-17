@@ -10,14 +10,15 @@ Plataforma para capacitar profissionais da saúde de maneira humanizada e oferec
 
 ### *Wireframe:*
 
-Para ver as definições das **páginas**, clique em [aqui](https://bityli.com/mIV0f).
+Para ver as definições das **páginas**, clique em [aqui](https://bit.ly/2z5RR8R).
 
 ### *Tecnologias usadas:*
 
 - [React](https://pt-br.reactjs.org/docs/getting-started.html);
 - [React Router](https://reacttraining.com/react-router/web/guides/quick-start);
 - [Sass](https://sass-lang.com/guide);
-- [Font Awesome](https://fontawesome.com/start).
+- [Font Awesome](https://fontawesome.com/start);
+- [Netlify](https://www.netlify.com/)
 
 ****
 ## *Como instalar e rodar ?* 🚀
