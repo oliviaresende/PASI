@@ -1,8 +1,10 @@
 import React from 'react'
+import { useHistory } from 'react-router'
 import './style.scss'
 import logo from '../../assets/logo.png'
 
 const HeaderComponent = () => {
+  const history = useHistory()
   return (
     <div className="header">
       <div className="header-menu">
@@ -12,11 +14,11 @@ const HeaderComponent = () => {
         </div>
         <div className="menu">
           <ul className="header-list">
-            <li><a href="/">CAPACITAÇÃO</a></li>
-            <li><a href="/">DIREITOS</a></li>
-            <li><a href="/">ENCONTRE SEU MÉDICO</a></li>
+            <li><a href="/construction">CAPACITAÇÃO</a></li>
+            <li><a href="/construction">DIREITOS</a></li>
+            <li><a href="/construction">ENCONTRE SEU MÉDICO</a></li>
           </ul>
-          <button className="header-button">Perfil</button>
+          <button className="header-button" onClick={() => (history.push("/construction"))}>Perfil</button>
         </div>
       </div>
     </div>

@@ -47,8 +47,16 @@
   margin-top: 50px;
   opacity: 0.5;
 
-  img {
-    width: 40vw;
+  .patient-img {
+    img {
+      width: 25vw;
+    }
+  }
+
+  .background-patient {
+    img {
+      width: 40vw;
+    }
   }
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from 'react-router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import imagem from '../../assets/fig-3.png'
@@ -7,6 +8,7 @@ import backgroundPatient from '../../assets/background-patient.svg'
 import './style.scss'
 
 const Patient = () => {
+  const history = useHistory()
   return (
     <>
       <div className="background-patient-container">
@@ -26,8 +28,8 @@ const Patient = () => {
         </div>
         <div className="patient-body" >
           <div className="button-container">
-            <button className="button btn-primary">Buscar</button>
-            <button className="button btn-outline">Voltar</button>
+            <button className="button btn-primary" onClick={() => (history.push("/construction"))}>Buscar</button>
+            <button className="button btn-outline"onClick={() => (history.push("/"))}>Voltar</button>
           </div>
         </div>
       </div>

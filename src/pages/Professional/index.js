@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from 'react-router'
 import Circle from '../../components/Circles'
 import Comment from '../../components/Comments'
 import './style.scss'
@@ -12,6 +13,8 @@ import BackgroundProfessional from '../../assets/background-professional.svg'
 
 
 const Professional = () => {
+  const history = useHistory()
+
   return (
     <>
       <div className="background-professional"><img src={BackgroundProfessional} alt=""/></div>
@@ -26,8 +29,8 @@ const Professional = () => {
           </div>
           <div className="container-right">
             <div className="button-container">
-              <button className="button btn-primary" >Ver progressão</button>
-              <button className="button btn-outline">Editar perfil</button>
+              <button className="button btn-primary" onClick={() => (history.push("/construction"))}>Ver progressão</button>
+              <button className="button btn-outline"onClick={() => (history.push("/construction"))}>Editar perfil</button>
             </div>
           </div>
         </div>
