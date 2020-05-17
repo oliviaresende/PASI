@@ -1,25 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, useEffect} from 'react'
+import Menu from './components/Menu'
+import Footer from './components/Footer'
+import Routes from './Routes'
+import './global.scss'
+
 
 function App() {
+  const [isMobile, setIsMobile] = useState(true)
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 1024 ? true : false)
+  }
+
+  useEffect(() => {
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {
+        isMobile ? (
+          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100vh', padding: '4rem'}}>Resolução não suportada. Por favor abra o site em um desktop.</div>
+        ) : (
+          <>
+            <Menu />
+            <Routes />
+            <Footer />
+          </>
+        )
+      }
+    </>
   );
 }
 

@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  height: inherit !important;
+  background: #F8F9FA;
+  position: fixed;
+  bottom: 0;
+
+  .footer-container {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem 0 2rem;
+  }
+  .footer-list {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    float: right;
+  }
+  .footer-list li {
+    margin: 0 25px 0 0;
+  }
+
+  .footer-list li a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    color: #404B5A;
+
+    &:hover {
+        text-decoration: underline;
+        color: #FF8E8E;
+    }
+}
+}

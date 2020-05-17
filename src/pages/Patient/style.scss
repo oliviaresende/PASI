@@ -1,0 +1,54 @@
+.patient-container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .patient-text {
+    width: 850px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+  }
+
+  .patient-body {
+    display: flex;
+  }
+
+  .button-container {
+    width: 250px;
+  }
+  .patient-input {
+    display: flex;
+    width: 700px;
+    margin: 3rem 0 4rem 0;
+
+    input {
+      background: #E8E8E8;
+      padding-left: 3rem;
+    }
+    svg {
+      align-self: center;
+      position: absolute;
+      margin-left: 1rem;
+      color: rgba(0, 0, 0, 0.54);
+    }
+  }
+
+}
+
+.background-patient-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-top: 50px;
+  opacity: 0.5;
+
+  img {
+    width: 40vw;
+  }
+}
+

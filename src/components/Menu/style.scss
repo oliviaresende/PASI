@@ -1,0 +1,72 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  background: #F8F9FA;
+  position: fixed;
+  top: 0;
+}
+.header-menu {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem 0 2rem;
+
+}
+.logo {
+  float: left;
+  display: block;
+  .logo-text{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 14px;
+    color: #404B5A;
+    justify-self: start;
+  }
+
+}
+.menu {
+    height: inherit;
+    float: right;
+}
+.header-menu .menu {
+	align-items: center;
+	display: flex;
+  justify-content: space-between;
+}
+.header-list {
+	display: flex;
+	list-style: none;
+}
+.header-list li {
+	margin: 0 25px 0 0;
+}
+.header-list li a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    color: #404B5A;
+
+    &:hover {
+        text-decoration: underline;
+        color: #FF8E8E;
+    }
+}
+.header-button {
+    height: 26px;
+    width: 77px;
+    top: calc(50% - 26px/2 + 0.5px);
+
+    background: #FF8E8E;
+    border: 1px solid #FF8E8E;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #F8F9FA;
+}

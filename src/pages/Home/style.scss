@@ -1,0 +1,46 @@
+.home-container {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+
+    .content-left {
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-img {
+        border-radius: 268.5px;
+        width: 50vw;
+        height: 537px;
+
+        img {
+            width: 100%;
+        }
+    }
+    .content-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 84px;
+    }
+
+    .button-container {
+        width: 250px;
+    }
+}
+
+.background-home {
+    position: absolute;
+    z-index: -1;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    padding-bottom: 50px;
+}
+
