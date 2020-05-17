@@ -10,7 +10,7 @@ Plataforma para capacitar profissionais da saúde de maneira humanizada e oferec
 
 ### *Wireframe:*
 
-Para ver as definições das **páginas**, clique em [aqui](https://www.figma.com/file/ApL92QEryCPhuyaj5tMPns/Untitled?node-id=259%3A0).
+Para ver as definições das **páginas**, clique em [aqui](https://bityli.com/mIV0f).
 
 ### *Tecnologias usadas:*
 
