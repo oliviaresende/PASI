@@ -8,9 +8,13 @@ Plataforma para capacitar profissionais da saúde de maneira humanizada e oferec
 - Perfil personalizado do profissional;
 - Busca por profissionais capacitados.
 
+### *Aplicação:*
+
+Para acessar a aplicação, clique [aqui](https://pasi.netlify.app/)
+
 ### *Wireframe:*
 
-Para ver as definições das **páginas**, clique em [aqui](https://bit.ly/2z5RR8R).
+Para ver as definições das **páginas**, clique [aqui](https://bit.ly/2z5RR8R).
 
 ### *Tecnologias usadas:*
 
