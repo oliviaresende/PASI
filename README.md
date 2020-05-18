@@ -1,6 +1,11 @@
 # Projeto: P.A.S.I - Programa de acesso à saúde inclusiva
 
-Plataforma para capacitar profissionais da saúde de maneira humanizada e oferecer conexão entre os profissionais e o público LGBTI+.
+Plataforma para capacitar profissionais da saúde para um acolhimento de maneira humanizada e oferecer conexão entre os profissionais e o público LGBTI+.
+
+### *Motivação:*
+
+O projeto foi desenvolvido durante o Fica em Casa Hack promovido pela [Porto Digital](https://www.portodigital.org/home). O hackathon teve como objetivo desenvolver uma solução de impacto social voltada para populações em vulnerabilidade social, mulheres e pessoas da comunidade LGBTI+. Com base na pesquisa realizada pelo grupo foi constatada que existem profissionais de saúde despreparados para lidar com o público LGBTI+.
+
 ****
 ## *Sobre o projeto* ⭐️
 ### *Principais funcionalidades:*
